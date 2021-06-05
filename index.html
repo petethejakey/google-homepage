@@ -7,6 +7,7 @@
         #logo {
             display:block;
             margin: auto;
+            padding-top: 140px;
         }
         #searchbar {
             
@@ -16,20 +17,49 @@
             margin-top: 10px;
             width: 550px;
             border-radius: 25px;
-            height: 50px;
+            height: 45px;
             border-color: lightgray;
             border-width: 1px;
+        }
+        #searchbar:hover {
+            box-shadow: 10px 10px 20px rgba 0 0 0 0.4;
+        }
+        li {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        a {
+            color:black;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        #left {
+            font-size: 14px;
+            float: left;
+            padding:10px;
+        }
+        #right {
+            font-size: 13px;
+            float:right;
+            padding:10px;
+        }
     </style>
 </head>
 <body>    
     <header>
       <ul>
-      <li><a href="" alt="about">About</a></li>
-      <li><a href="" alt="Store">Store</a></li>
-      <li><a href="" alt="gmail">Gmail</a></li>
-      <li><a href="" alt="images">Images</a></li>
-      <li><a href="" alt=""></a></li>
-      <li><a href="" alt="sign in">Sign in</a></li>
+      <li id=left><a href="" alt="about" >About</a></li>
+      <li id=left><a href="" alt="Store">Store</a></li>
+      <li id=right><a href="" alt="gmail">Gmail</a></li>
+      <li id=right><a href="" alt="images">Images</a></li>
+      <li id=right><a href="" alt=""></a></li>
+      <li id=right><a href="" alt="sign in">Sign in</a></li>
       </ul>  
     </header>
     <img id=logo src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
